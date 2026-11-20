@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Raúl Antelo — IA, Big Data y Backend">
+<style>
+  .bg { fill: #0d1117; }
+  .grid { stroke: #1b2230; stroke-width: 1; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; }
+  .sans { font-family: "Segoe UI", -apple-system, Helvetica, Arial, sans-serif; }
+  .prompt { fill: #8b949e; font-size: 17px; }
+  .name { fill: #f0f3f6; font-size: 76px; font-weight: 800; letter-spacing: -2px; }
+  .dot { fill: #e0313b; }
+  .role { fill: #6e8bd6; font-size: 24px; font-weight: 600; }
+  .meta { fill: #8b949e; font-size: 15px; }
+  .acc { fill: #e0313b; }
+  .track { fill: #161b22; stroke: #30363d; }
+  .bar { fill: #e0313b; animation: fill 7s ease-in-out infinite; transform-box: fill-box; transform-origin: left; }
+  .cursor { fill: #e0313b; animation: blink 1s steps(1) infinite; }
+  .edge { stroke: #30363d; stroke-width: 1.2; fill: none; }
+  .pulse { stroke: #e0313b; stroke-width: 2; fill: none; stroke-dasharray: 14 400; stroke-dashoffset: 414;
+            stroke-linecap: round; animation: flow 3s linear infinite; }
+  .node { fill: #0d1117; stroke: #6e8bd6; stroke-width: 2.5; animation: glow 3s ease-in-out infinite; }
+  .node.out { stroke: #e0313b; stroke-width: 3; }
+  @keyframes flow { to { stroke-dashoffset: 0; } }
+  @keyframes glow { 0%,100% { fill: #0d1117; } 50% { fill: #e0313b; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes fill { 0% { transform: scaleX(0); } 80%,100% { transform: scaleX(1); } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+<rect width="1200" height="340" rx="18" class="bg"/>
+<g opacity=".7"><line x1="0" y1="0" x2="0" y2="340" class="grid"/><line x1="40" y1="0" x2="40" y2="340" class="grid"/><line x1="80" y1="0" x2="80" y2="340" class="grid"/><line x1="120" y1="0" x2="120" y2="340" class="grid"/><line x1="160" y1="0" x2="160" y2="340" class="grid"/><line x1="200" y1="0" x2="200" y2="340" class="grid"/><line x1="240" y1="0" x2="240" y2="340" class="grid"/><line x1="280" y1="0" x2="280" y2="340" class="grid"/><line x1="320" y1="0" x2="320" y2="340" class="grid"/><line x1="360" y1="0" x2="360" y2="340" class="grid"/><line x1="400" y1="0" x2="400" y2="340" class="grid"/><line x1="440" y1="0" x2="440" y2="340" class="grid"/><line x1="480" y1="0" x2="480" y2="340" class="grid"/><line x1="520" y1="0" x2="520" y2="340" class="grid"/><line x1="560" y1="0" x2="560" y2="340" class="grid"/><line x1="600" y1="0" x2="600" y2="340" class="grid"/><line x1="640" y1="0" x2="640" y2="340" class="grid"/><line x1="680" y1="0" x2="680" y2="340" class="grid"/><line x1="720" y1="0" x2="720" y2="340" class="grid"/><line x1="760" y1="0" x2="760" y2="340" class="grid"/><line x1="800" y1="0" x2="800" y2="340" class="grid"/><line x1="840" y1="0" x2="840" y2="340" class="grid"/><line x1="880" y1="0" x2="880" y2="340" class="grid"/><line x1="920" y1="0" x2="920" y2="340" class="grid"/><line x1="960" y1="0" x2="960" y2="340" class="grid"/><line x1="1000" y1="0" x2="1000" y2="340" class="grid"/><line x1="1040" y1="0" x2="1040" y2="340" class="grid"/><line x1="1080" y1="0" x2="1080" y2="340" class="grid"/><line x1="1120" y1="0" x2="1120" y2="340" class="grid"/><line x1="1160" y1="0" x2="1160" y2="340" class="grid"/><line x1="1200" y1="0" x2="1200" y2="340" class="grid"/><line x1="0" y1="0" x2="1200" y2="0" class="grid"/><line x1="0" y1="40" x2="1200" y2="40" class="grid"/><line x1="0" y1="80" x2="1200" y2="80" class="grid"/><line x1="0" y1="120" x2="1200" y2="120" class="grid"/><line x1="0" y1="160" x2="1200" y2="160" class="grid"/><line x1="0" y1="200" x2="1200" y2="200" class="grid"/><line x1="0" y1="240" x2="1200" y2="240" class="grid"/><line x1="0" y1="280" x2="1200" y2="280" class="grid"/><line x1="0" y1="320" x2="1200" y2="320" class="grid"/></g>
+
+<text x="64" y="82" class="mono prompt">~/raul-antelo <tspan class="acc">$</tspan> python train.py --epochs 2027</text>
+<text x="60" y="168" class="sans name">Raúl Antelo<tspan class="dot">.</tspan></text>
+<text x="64" y="212" class="sans role">IA · Big Data · Backend</text>
+
+<text x="64" y="262" class="mono meta">epoch 2026/2027</text>
+<rect x="210" y="249" width="240" height="16" rx="8" class="track"/>
+<rect x="212" y="251" width="236" height="12" rx="6" class="bar"/>
+<text x="466" y="262" class="mono meta">loss ↓  status: <tspan class="acc">training</tspan></text>
+<rect x="64" y="284" width="10" height="20" class="cursor"/>
+<text x="84" y="300" class="mono meta">A Coruña · Máster FP Dual IA &amp; Big Data · NTT DATA</text>
+
+<g><path d="M770 110 L880 80" class="edge"/><path d="M770 110 L880 140" class="edge"/><path d="M770 110 L880 200" class="edge"/><path d="M770 110 L880 260" class="edge"/><path d="M770 170 L880 80" class="edge"/><path d="M770 170 L880 140" class="edge"/><path d="M770 170 L880 200" class="edge"/><path d="M770 170 L880 260" class="edge"/><path d="M770 230 L880 80" class="edge"/><path d="M770 230 L880 140" class="edge"/><path d="M770 230 L880 200" class="edge"/><path d="M770 230 L880 260" class="edge"/><path d="M880 80 L990 110" class="edge"/><path d="M880 80 L990 170" class="edge"/><path d="M880 80 L990 230" class="edge"/><path d="M880 140 L990 110" class="edge"/><path d="M880 140 L990 170" class="edge"/><path d="M880 140 L990 230" class="edge"/><path d="M880 200 L990 110" class="edge"/><path d="M880 200 L990 170" class="edge"/><path d="M880 200 L990 230" class="edge"/><path d="M880 260 L990 110" class="edge"/><path d="M880 260 L990 170" class="edge"/><path d="M880 260 L990 230" class="edge"/><path d="M990 110 L1100 170" class="edge"/><path d="M990 170 L1100 170" class="edge"/><path d="M990 230 L1100 170" class="edge"/></g>
+<g><path d="M770 110 L880 80" class="pulse" style="animation-delay:0.00s"/><path d="M770 110 L880 260" class="pulse" style="animation-delay:1.11s"/><path d="M770 170 L880 200" class="pulse" style="animation-delay:2.22s"/><path d="M770 230 L880 140" class="pulse" style="animation-delay:0.33s"/><path d="M880 80 L990 110" class="pulse" style="animation-delay:1.44s"/><path d="M880 140 L990 110" class="pulse" style="animation-delay:2.55s"/><path d="M880 200 L990 110" class="pulse" style="animation-delay:0.66s"/><path d="M880 260 L990 110" class="pulse" style="animation-delay:1.77s"/><path d="M990 110 L1100 170" class="pulse" style="animation-delay:2.88s"/></g>
+<g><circle cx="770" cy="110" r="9" class="node" style="animation-delay:0.00s"/><circle cx="770" cy="170" r="9" class="node" style="animation-delay:0.18s"/><circle cx="770" cy="230" r="9" class="node" style="animation-delay:0.36s"/><circle cx="880" cy="80" r="9" class="node" style="animation-delay:0.54s"/><circle cx="880" cy="140" r="9" class="node" style="animation-delay:0.72s"/><circle cx="880" cy="200" r="9" class="node" style="animation-delay:0.90s"/><circle cx="880" cy="260" r="9" class="node" style="animation-delay:1.08s"/><circle cx="990" cy="110" r="9" class="node" style="animation-delay:1.26s"/><circle cx="990" cy="170" r="9" class="node" style="animation-delay:1.44s"/><circle cx="990" cy="230" r="9" class="node" style="animation-delay:1.62s"/><circle cx="1100" cy="170" r="9" class="node out" style="animation-delay:1.80s"/></g>
+<text x="1100" y="208" text-anchor="middle" class="mono meta">ŷ</text>
+</svg>

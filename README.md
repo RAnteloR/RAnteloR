@@ -1,110 +1,117 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f2a44,100:e0313b&height=190&section=header&text=Raúl%20Antelo&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=Desarrollador%20junior%20·%20IA,%20Datos%20%26%20Backend&descSize=17&descAlignY=58" alt="Raúl Antelo" />
-</p>
+<a href="https://linkedin.com/in/raulanteloramirez">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
+    <img src="./assets/banner-dark.svg" alt="Raúl Antelo: IA, Big Data y Backend" width="100%" />
+  </picture>
+</a>
 
 <p align="center">
-  <a href="https://github.com/RAnteloR">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=E0313B&center=true&vCenter=true&width=620&lines=Máster+FP+Dual+en+IA+y+Big+Data+🧠;Futuras+prácticas+en+NTT+DATA+🚀;Python+·+Machine+Learning+·+Docker+🐍🐳;De+formar+a+100%2B+personas+a+entrenar+modelos" alt="Typing SVG" />
-  </a>
+  <a href="https://linkedin.com/in/raulanteloramirez"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:raulanteloramirez@gmail.com"><img src="https://img.shields.io/badge/Email-e0313b?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/SrPineappleDev/ElysChef"><img src="https://img.shields.io/badge/Ely's_Chef-1f2a44?style=flat-square&logo=github&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/status-training-e0313b?style=flat-square" />
+  <img src="https://img.shields.io/badge/open_to-feedback-2ea043?style=flat-square" />
 </p>
 
-<p align="center">
-  <a href="https://linkedin.com/in/raulanteloramirez"><img src="https://img.shields.io/badge/LinkedIn-raulanteloramirez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:raulanteloramirez@gmail.com"><img src="https://img.shields.io/badge/Email-Escríbeme-e0313b?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://elys-chef.vercel.app"><img src="https://img.shields.io/badge/Demo-Ely's%20Chef-1f2a44?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=RAnteloR&color=1f2a44&style=for-the-badge&label=VISITAS" />
-</p>
+<br />
 
----
+## 🪪 Model card · `raul-antelo`
 
-## 👋 Sobre mí
-
-```python
-class RaulAntelo:
-    ubicacion   = "A Coruña, Galicia 📍"
-    rol         = "Desarrollador junior · IA, Datos & Backend"
-    formacion   = ["Máster FP Dual en IA y Big Data · IES Fernando Wirtz (en curso)",
-                   "CFGS Desarrollo de Aplicaciones Multiplataforma (DAM)"]
-    proximo     = "Prácticas en NTT DATA · Semana Santa 2027"
-    experiencia = "Symfony/PHP en producción · ITBid Technologies"
-    superpoder  = "3 años formando a +100 personas → explico lo técnico fácil"
-    idiomas     = {"es": "nativo", "en": "C1", "fr": "A2"}
-
-    def ahora_mismo(self):
-        return ["Machine Learning", "Big Data con Spark", "Contenerizar con Docker"]
+```yaml
+model_id:      raul-antelo
+version:       2026.11
+architecture:  backend_dev → ml_engineer   # fine-tuning en curso
+base_model:    CFGS DAM (Desarrollo de Aplicaciones Multiplataforma)
+fine_tuning:   Máster FP Dual en IA y Big Data · IES Fernando Wirtz
+partners:      [NTT DATA, Xunta de Galicia]
+deployment:    prácticas en NTT DATA · Semana Santa 2027
+region:        A Coruña, Galicia
+languages:     { es: nativo, en: C1, fr: A2 }
+license:       open-to-feedback
 ```
 
-- 🧠 Estoy en el **Máster de FP Dual en IA y Big Data** del IES Fernando Wirtz, junto a **NTT DATA** y la **Xunta de Galicia**. Entré tras un proceso de selección.
-- 🔬 Lo que más me motiva son los **casos reales**: datos sucios, problemas de verdad y modelos que tienen que funcionar.
-- 🛠️ Vengo del desarrollo backend: microservicios, KPIs y bugs críticos resueltos en producción.
-- 💬 Si trabajas con datos o IA, **me encantará leer tu consejo**. Abre un issue o escríbeme por LinkedIn.
+| | |
+|---|---|
+| **🎯 Uso previsto** | Convertir datos sucios y problemas reales en modelos que funcionan en producción. |
+| **📚 Datos de entrenamiento** | Microservicios Symfony/PHP en producción (ITBid Technologies), KPIs y bugs críticos resueltos en vivo. |
+| **⚡ Capacidad emergente** | 3 años formando a +100 personas: explico lo técnico de forma sencilla. |
+| **⚠️ Limitaciones conocidas** | Todavía aprendiendo. Por eso tu consejo mejora el modelo: abre un issue o escríbeme. |
 
----
+<br />
 
-## 🧰 Stack
+## 📈 Training log
+
+```mermaid
+timeline
+    title De backend a IA
+    DAM : Java, Android, PHP
+        : TFG · Ely's Chef con OpenAI
+    ITBid Technologies : Symfony en producción
+                       : Microservicios y KPIs
+    Formador : +100 personas formadas
+    Máster IA y Big Data : Machine Learning
+                         : Spark y Docker
+    2027 : Prácticas en NTT DATA
+```
+
+<br />
+
+## 🧩 Features
+
+<table>
+<tr>
+<td width="50%" valign="top">
 
 **Datos & IA**
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" />
-</p>
+<img src="https://skillicons.dev/icons?i=python,sklearn,mysql&theme=dark" /><br />
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" />
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" />
 
-**Despliegue & herramientas**
+</td>
+<td width="50%" valign="top">
 
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,idea,maven&theme=dark" />
-</p>
+**Desarrollo & despliegue**
 
-**Desarrollo**
+<img src="https://skillicons.dev/icons?i=java,php,symfony,ts,react,vite,tailwind&theme=dark" /><br />
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,vscode,idea,maven,androidstudio&theme=dark" />
 
-<p>
-  <img src="https://skillicons.dev/icons?i=java,php,symfony,js,ts,react,vite,tailwind,androidstudio&theme=dark" />
-</p>
-
----
-
-## 🚀 Proyecto destacado
-
-<table>
-  <tr>
-    <td>
-      <h3>🍳 Ely's Chef: recetas con IA</h3>
-      <p>Mi TFG del DAM. Le dices qué tienes en la nevera y un modelo de lenguaje (API de OpenAI) te propone recetas sencillas con el cálculo calórico de cada plato.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
-      </p>
-      <a href="https://elys-chef.vercel.app"><b>👉 Probar la demo</b></a>
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
----
+<br />
 
-## 📊 Actividad
+## 🚀 Inferencia en producción
+
+<table>
+<tr>
+<td>
+
+### 🍳 Ely's Chef
+
+> **input:** lo que tienes en la nevera &nbsp;→&nbsp; **output:** recetas sencillas con sus calorías
+
+Mi TFG del DAM. Un modelo de lenguaje (API de OpenAI) propone recetas a partir de tus ingredientes y calcula las calorías de cada plato.
+
+`React` `TypeScript` `Vite` `Tailwind` `OpenAI`
+
+> [!NOTE]
+> Ahora mismo la base de datos de la demo está **en pausa**, así que es posible que la app no funcione si la pruebas. El código está disponible en el repositorio.
+
+**[→ Ver el repositorio](https://github.com/SrPineappleDev/ElysChef)** &nbsp;·&nbsp; [Demo (BD en pausa)](https://elys-chef.vercel.app)
+
+</td>
+</tr>
+</table>
+
+<br />
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=RAnteloR&show_icons=true&hide_border=true&bg_color=1f2a44&title_color=e0313b&icon_color=e0313b&text_color=ffffff&locale=es" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAnteloR&layout=compact&hide_border=true&bg_color=1f2a44&title_color=e0313b&text_color=ffffff&locale=es" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=RAnteloR&hide_border=true&background=1f2a44&ring=e0313b&fire=e0313b&currStreakLabel=e0313b&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=cccccc&locale=es" />
-</p>
-
-<!-- Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e0313b,100:1f2a44&height=110&section=footer" />
+  <code>model.eval()</code> · ¿Trabajas con datos o IA? <a href="https://linkedin.com/in/raulanteloramirez"><b>Hablemos</b></a> 👋
 </p>
