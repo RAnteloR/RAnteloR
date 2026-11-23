@@ -42,18 +42,11 @@ license:       open-to-feedback
 
 ## 📈 Training log
 
-```mermaid
-timeline
-    title De backend a IA
-    DAM : Java, Android, PHP
-        : TFG · Ely's Chef con OpenAI
-    ITBid Technologies : Symfony en producción
-                       : Microservicios y KPIs
-    Formador : +100 personas formadas
-    Máster IA y Big Data : Machine Learning
-                         : Spark y Docker
-    2027 : Prácticas en NTT DATA
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg" />
+  <img src="./assets/timeline-dark.svg" alt="Training log: Formador (+100 personas formadas) → CFGS DAM → ITBid Technologies → Máster IA y Big Data (ahora) → Prácticas en NTT DATA 2027" width="100%" />
+</picture>
 
 <br />
 
